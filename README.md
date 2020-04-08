@@ -6,7 +6,7 @@
 [![Downloads Stats][npm-downloads]][npm-url]
 
 this application allows to know how we protect ourselves from this virus as well as it offers a chatbot which answers all questions concerning this subject with the possibility of making a test to know if the user is sick or not as it has the possibility of '' call a doctor
-![](header.png)
+![](https://ibb.co/9VWcXKH)
 
 ## Running
 ```ionic
