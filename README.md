@@ -9,7 +9,7 @@ this application allows to know how we protect ourselves from this virus as well
 
 
 
-![](https://i.ibb.co/D8QzXcf/1.png) ![](https://i.ibb.co/mC1Y1Qn/2.png) ![](https://i.ibb.co/ZJfZsYD/3.png)
+![](https://i.ibb.co/D8QzXcf/1.png) ![](https://i.ibb.co/mC1Y1Qn/2.png) 
 
 ## Running
 ```ionic
