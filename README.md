@@ -5,8 +5,11 @@
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-this application allows to know how we protect ourselves from this virus as well as it offers a chatbot which answers all questions concerning this subject with the possibility of making a test to know if the user is sick or not as it has the possibility of '' call a doctor
-![](https://i.ibb.co/D8QzXcf/1.png)
+this application allows to know how we protect ourselves from this virus as well as it offers a chatbot which answers all questions concerning this subject with the possibility of making a test to know if the user is sick or not as it has the possibility of  call a doctor.
+
+
+
+![](https://i.ibb.co/D8QzXcf/1.png) ![](https://i.ibb.co/mC1Y1Qn/2.png) ![](https://i.ibb.co/ZJfZsYD/3.png)
 
 ## Running
 ```ionic
