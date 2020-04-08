@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="danger">
     <ion-title>
-      Tab 2
+      فحص فيروس كورونا
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,54 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+      <ion-title size="large">فحص فيروس كورونا</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-list>
+    <ion-item>
+      <ion-label><small>هل لديك إرتفاع في الحرارة ؟</small></ion-label>
+      <ion-toggle color="danger" [(ngModel)]="reponse1"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label><small>هل تشعر بإجهاد عام ؟</small></ion-label>
+      <ion-toggle color="danger"   [(ngModel)]="reponse2"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label><small>هل تعاني من سعال جاف ؟</small></ion-label>
+      <ion-toggle color="danger"  [(ngModel)]="reponse3"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label><small>هل تعاني من أوجاع وآلام ؟ </small></ion-label>
+      <ion-toggle color="danger"  [(ngModel)]="reponse4"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label><small>هل يوجد لديك صداع ؟</small></ion-label>
+      <ion-toggle color="danger"  [(ngModel)]="reponse5"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label><small>هل تعاني من العطس ؟</small></ion-label>
+      <ion-toggle color="danger"  [(ngModel)]="reponse6"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label><small>هل تعاني من صعوبة في التنفس ؟</small></ion-label>
+      <ion-toggle color="danger"  [(ngModel)]="reponse7"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label><small>هل تعاني من سيلان الأنف ؟</small></ion-label>
+      <ion-toggle color="danger"  [(ngModel)]="reponse8"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label><small>هل تعاني من إلتهاب في الحلق ؟</small></ion-label>
+      <ion-toggle color="danger"  [(ngModel)]="reponse9"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label><small>هل تعاني من الإسهال ؟</small></ion-label>
+      <ion-toggle color="danger"  [(ngModel)]="reponse10"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label><ion-button color="danger" expand="block" (click)="test()">تشخيص حالتي</ion-button>
+      </ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>

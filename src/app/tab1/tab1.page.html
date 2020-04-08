@@ -1,17 +1,30 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
+<ion-header [translucent]="true" >
+  <ion-toolbar color="danger">
+    <ion-title > 
+      أطباء للإجابة على أسئلتك
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+  <ion-header collapse="condense" >
+    <ion-toolbar >
+      <ion-title size="large" >أطباء للإجابة على أسئلتك</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <app-explore-container name="Tab 1 page">
+    
+  </app-explore-container>
+  <ion-content fullscreen>
+
+    <h6> قائمة الأطباء المتطوعين لتلقي المكالمات الهاتفية والإجابة على أسئلتك حول الشكاوى والأعراض التي لديك:</h6>
+      <ion-grid>
+        <ion-row no-padding>
+          <ion-col size="4" *ngFor="let  medecin of tabMed">
+            <img src="../../assets/icon/doctors/{{medecin.image}}" (click)="telephoner(medecin.num)">
+            <p>{{medecin.nom}}</p>
+          </ion-col>
+        </ion-row>
+  </ion-grid>
 </ion-content>

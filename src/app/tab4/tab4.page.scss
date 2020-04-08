@@ -1,0 +1,38 @@
+ion-content ion-toolbar {
+  --background: translucent;
+}
+
+
+div
+{
+  width: 66%;
+  border-radius: 30px;
+  padding: 3%;
+  margin: 2%;
+}
+
+ion-content
+{
+  --background: #e6e6e6;
+  --padding-bottom:15%
+}
+
+div:nth-child(2n+1) {
+  background-color: #e70013;
+  float: right;
+  color: white;
+}
+
+div:nth-child(2n) {
+  background-color: white;
+  float: left;
+}
+
+
+ion-input
+{
+  position: fixed;
+  bottom: 0px;
+  background-color: white;
+}
+

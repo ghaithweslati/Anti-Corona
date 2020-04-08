@@ -7,6 +7,20 @@ import { Component } from '@angular/core';
 })
 export class Tab3Page {
 
-  constructor() {}
+  sliderConfig = {
+    spaceBetween:10,
+    slidesPerView:2.5
+  }
 
+  tabConseil=[];
+  constructor() {
+    this.afficherConseil();
+  }
+  
+  afficherConseil()
+  {
+    for(let i=1;i<=8;i++)
+       this.tabConseil.push({image:i+'.png'});
+  }
 }
+

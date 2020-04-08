@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="danger">
+    <ion-title>
+       كورونا Chatbot
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" #content >
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">كورونا Chatbot</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <section><br/>
+  <div *ngFor="let  message of conversation">
+    <span>{{message}}</span>
+  </div>
+  <ion-input placeholder="إكتب السؤال" (keyup.enter)="talk()"  [(ngModel)]="question"></ion-input>
+  </section>
+</ion-content>
